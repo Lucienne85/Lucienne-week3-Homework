@@ -90,3 +90,25 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: 45px;
+  }
+  .app-title,
+  .app-description {
+    text-align: center;
+  }
+  .app-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .app-section {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .about-image {
+    margin-bottom: 20px;
+  }
+}
